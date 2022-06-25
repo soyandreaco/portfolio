@@ -1,3 +1,6 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shadows+Into+Light&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -44,9 +47,10 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0; 
+	border-spacing: 0;
 }
 /* End css reset */
+
 
 
 html {
@@ -56,6 +60,57 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  font-family:'Shadows Into Light', cursive, sans-serif;
   background: #1b1b1b;
-  color: #f8f9fa;
+  
 }
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 4rem;
+  font-weight: 600;
+  color: #f8f9fa;
+  letter-spacing: 6px;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-container {
+  margin: 10px 30%;
+}
+
+.image-container img{
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Media Query: Large Smartphone */
+@media screen and (max-width: 600px){
+  h1 {
+	font-size: 2rem;
+  }
+
+  .image-container {
+	margin: 10px;
+  }
+}
+
+
+
+
+

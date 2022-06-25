@@ -54,4 +54,9 @@ const localQuotes = [
 		author: "George Eliot",
 	},
 
+	{
+		text: "El amigo ha de ser como la sangre, que acude a la herida sin esperar a que le llamen.",
+		author: "Francisco de Quevedo",
+	},
+
 ];
