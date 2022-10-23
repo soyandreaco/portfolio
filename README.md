@@ -1,4 +1,4 @@
 # portfolio
-Recopilación de proyectos
+Recopilación de proyectos ... en construcción
 
 https://soyandreaco.github.io/portfolio/
